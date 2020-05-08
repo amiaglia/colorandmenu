@@ -1,5 +1,9 @@
 *.log
 *.bak
+
+# Virtual environment folder
 /venv/
+
+# Pycache folders
 /__pycache__/
 /modules/__pycache__/
