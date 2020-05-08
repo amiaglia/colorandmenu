@@ -2,9 +2,9 @@ from colored import fg, bg, attr
 import os
 import sys
 import time
-from loading import loading
-from auxf import del_last_lines, clear
-from help import printHelp
+from modules.loading import loading
+from modules.auxf import del_last_lines, clear
+from modules.help import printHelp
 
 def menu():
     print('%s1.%s Loading example' % (fg('red'), attr('reset')))

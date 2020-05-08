@@ -1,6 +1,6 @@
 from colored import fg, bg, attr
 import time
-from auxf import del_last_lines, clear
+from modules.auxf import del_last_lines, clear
 
 def loading(max = 50):
     print('%s[-]%s Your content is loading' % (fg('red'), attr('reset')))
